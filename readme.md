@@ -10,5 +10,5 @@ Downloading and decompressing the files may take some time on first usage.
 from mnist_loader import loader
 
 x_train, y_train = loader.load_train_numpy()
-x_test, y_test = loader.load_train_numpy()
+x_test, y_test = loader.load_test_numpy()
 ```
